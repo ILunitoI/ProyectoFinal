@@ -38,9 +38,9 @@
           Administrar usuarios
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{route('admin.index')}}">Administrador</a>
-          <a class="dropdown-item" href="{{route('operator.index')}}">Operador</a>
-          <a class="dropdown-item" href="{{route('medic.index')}}">Medico</a>
+          <a class="dropdown-item" href="{{route('admin.index')}}">Administradores</a>
+          <a class="dropdown-item" href="{{route('operator.index')}}">Operadores</a>
+          <a class="dropdown-item" href="{{route('medic.index')}}">Medicos</a>
           {{--<a class="dropdown-item" href="#">Another action</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Something else here</a>--}}
