@@ -56,7 +56,7 @@
           <p>Estás seguro de borrar el registro seleccionado?</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
           <form id="formDelete" action="{{route('operator.destroy', 0)}}"  data-action="{{route('operator.destroy', 0)}}" method="POST">
             @csrf
             @method('DELETE')
